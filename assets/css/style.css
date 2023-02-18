@@ -1,0 +1,38 @@
+.flex-box{
+    display: flex;
+}
+.P1{
+    align-items: flex-end;
+    background-color: darkseagreen;
+    justify-content: center;
+}    
+
+.big-header {
+    justify-content: space-between;
+    background-color:lightgreen
+    
+}
+
+.nav-items li{
+    margin-right: 20px;
+    list-style-type:disc;
+    font-style:initial ;
+}
+
+#profile-pic {
+    width: 200px;
+    height: auto;
+    border-color: rgb(7, 95, 7);
+    border-style:inset
+}
+
+.P2{ 
+    contain: layout;
+    align-items: flex-end;
+    background-color:khaki
+    
+}
+.P3{
+    contain: layout;
+    background-color:burlywood
+}
