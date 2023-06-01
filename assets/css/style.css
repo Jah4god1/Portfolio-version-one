@@ -1,38 +1,75 @@
-.flex-box{
+.flex-box {
     display: flex;
-}
-.P1{
+  }
+  
+  .P1 {
     align-items: flex-end;
     background-color: darkseagreen;
     justify-content: center;
-}    
-
-.big-header {
+  }
+  
+  .big-header {
     justify-content: space-between;
-    background-color:lightgreen
-    
-}
-
-.nav-items li{
+    background-color: lightgreen;
+  }
+  
+  .nav-items li {
     margin-right: 20px;
-    list-style-type:disc;
-    font-style:initial ;
-}
-
-#profile-pic {
+    list-style-type: disc;
+    font-style: initial;
+  }
+  
+  #profile-pic {
     width: 200px;
     height: auto;
     border-color: rgb(7, 95, 7);
-    border-style:inset
-}
-
-.P2{ 
+    border-style: inset;
+  }
+  
+  .P2 {
     contain: layout;
     align-items: flex-end;
-    background-color:khaki
-    
-}
-.P3{
+    background-color: khaki;
+  }
+  
+  .P3 {
     contain: layout;
-    background-color:burlywood
-}
+    background-color: burlywood;
+    left: 18%;
+    top: 150%;
+  }
+  
+  .P2,
+  .P3 {
+    top: 100%;
+    display: flex;
+    width: 450px;
+    align-items: center;
+    justify-content: center;
+  }
+  #about-me-description {
+    background-color: lightcyan;
+    padding: 20px;
+  }
+  #my-work {
+    background-color: lightgreen;
+    padding: 20px;
+  }
+  #contact-info {
+    background-color: lightyellow;
+    padding: 20px;
+  }
+  #about-me-pic {
+    background-color: lightgreen;
+    padding: 20px;
+  }
+  #about-me-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
